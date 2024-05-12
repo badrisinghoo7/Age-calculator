@@ -2,6 +2,10 @@
 
 Responsive Design: The calculator is designed to be responsive and work well on different screen sizes.
 
+# Live Demo
+
+. live here[https://age-calculator-nine-lovat.vercel.app/]
+
 
 # Technologies Used
 . HTML5
