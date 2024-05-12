@@ -70,3 +70,80 @@
     cursor: pointer;
     
 }
+.input-box input::-webkit-calendar-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+
+
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer;
+
+}
+#result {
+    font-size: 40px;
+}
+
+#result span{
+    color: yellow;
+}
+
+
+/*----------------------------Responsive ness-------------------------------*/
+
+@media screen and (max-width: 768px) {
+    .calculator {
+      width: 100%;
+      padding: 0 10px; /* Adjust padding for tablet */
+    }
+  
+    .calculator h1 {
+      font-size: 36px; /* Adjust font size for tablet */
+    }
+  
+    .input-box {
+      margin: 10px 0; /* Adjust margin for tablet */
+      padding: 15px; /* Adjust padding for tablet */
+    }
+  
+    .input-box input {
+      margin-right: 5px; /* Adjust margin for tablet */
+      font-size: 16px; /* Adjust font size for tablet */
+    }
+  
+    .input-box button {
+      padding: 8px 15px; /* Adjust padding for tablet */
+      font-size: 14px; /* Adjust font size for tablet */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container {
+      padding: 5px; /* Adjust padding for mobile */
+    }
+  
+    .calculator h1 {
+      font-size: 24px; /* Adjust font size for mobile */
+    }
+  
+    .input-box {
+      margin: 5px 0; /* Adjust margin for mobile */
+      padding: 10px; /* Adjust padding for mobile */
+    }
+  
+    .input-box input {
+      margin-right: 3px; /* Adjust margin for mobile */
+      font-size: 14px; /* Adjust font size for mobile */
+    }
+  
+    .input-box button {
+      padding: 5px 10px; /* Adjust padding for mobile */
+      font-size: 12px; /* Adjust font size for mobile */
+    }
+  }
+  
